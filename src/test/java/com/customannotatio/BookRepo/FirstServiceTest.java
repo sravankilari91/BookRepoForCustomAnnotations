@@ -11,9 +11,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 import java.util.HashMap;
 import java.util.Map;
 
-@SpringBootTest(classes = { FirstService.class,
-        Traceable.class,
-        AnnotationAwareAspectJAutoProxyCreator.class })
+@SpringBootTest
 @ExtendWith(SpringExtension.class)
 public class FirstServiceTest {
     @InjectMocks
